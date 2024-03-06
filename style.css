@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+body{
+    background-color: black;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo:hover{
+    color:#E47C21;
+}
+
+.navigation a{
+    color: darkgray;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navigation a:hover{
+    color:rgb(228, 124, 33);
+}
+
+section{
+    padding: 100px 50px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background: url("C:/Users/uscs/Desktop/Web_Mini-Project/images/bgggg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.text{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 305px;
+    margin-top: 100px;
+}
+
+.main-btn{
+    color: darkgrey;
+    background-color: black;
+    /* or #F2913D */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.83em 2.08em;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    justify-content: center;
+    transition: 0.8s ease;
+    margin-left: 230px;
+}
+
+.main-btn:hover{
+    color: aliceblue;
+    background-color: #E47C21;
+}
+
+.About {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+}
+
+.About h1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.About h3{
+    color:rgb(228, 124, 33);
+    margin-top: 15px;
+}
+
+.About img{
+    width: 500px;
+    height: 500px;
+}
+
+.About .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.horizontal-here{
+    display: flex;
+    flex-direction: flex start;
+}
+
+.vertical-here{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.tech-skills {
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: flex start;
+}
+
+.pl{
+    margin-right: 100px;
+}
+
+.other {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: flex start;
+}
+
+.ss{
+    margin-left: 20px;
+}
+
+.lan{
+    margin-left: 20px;
+}
+
+.soft-skills{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.langs{
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projects h1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: flex start;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #E47C21;
+    text-align: center;
+    width: 20.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.9s ease;
+    box-shadow: 0px 5px 25px #BF60B9/50%;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color: #f05d9a;
+}
+
+.icon{
+    font-size: 8em;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact h1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
